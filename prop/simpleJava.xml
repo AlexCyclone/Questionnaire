@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<questionnaire>
+    <name>Simple Java</name>
+    <quest>
+        <question>How often do you programming?</question>
+        <answer>Every day</answer>
+        <answer>Once a week</answer>
+        <answer>Sometimes</answer>
+        <answer>It's not interesting for me</answer>
+    </quest>
+    <quest>
+        <question>Do you know Java programming language?</question>
+        <answer>Yes</answer>
+        <answer>No</answer>
+        <answer>I'm not shure</answer>
+    </quest>
+    <quest>
+        <question>Do you know other programming languages?</question>
+        <answer>Yes</answer>
+        <answer>No</answer>
+    </quest>
+</questionnaire>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<questionnaire>
+    <name>What do you think about Java course in prog.kiev.ua</name>
+    <quest>
+        <question>Which course are you studying?</question>
+        <answer>Java start</answer>
+        <answer>Java OOP</answer>
+        <answer>Java Pro</answer>
+        <answer>No one</answer>
+    </quest>
+    <quest>
+        <question>The lectures are informative?</question>
+        <answer>Yes</answer>
+        <answer>No</answer>
+        <answer>I'm not shure</answer>
+    </quest>
+	<quest>
+        <question>Is there enough information received at the lecture to study the topic?</question>
+        <answer>More than enough</answer>
+        <answer>Not enough</answer>
+    </quest>
+    <quest>
+        <question>Do you have time to do your homework?</question>
+        <answer>Yes</answer>
+        <answer>No</answer>
+    </quest>
+	<quest>
+        <question>Do you like courses prog.kiev.ua?</question>
+        <answer>Really like</answer>
+		<answer>A little like</answer>
+        <answer>I am disappointed</answer>
+    </quest>
+</questionnaire>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+    <display-name>Simple questions</display-name>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <description>Simple questions</description>
+        <display-name>SimpleQuestions</display-name>
+        <servlet-name>SimpleQuestions</servlet-name>
+        <servlet-class>com.devianta.simplequestions.SimpleQuestions</servlet-class>
+    </servlet>
+    <servlet>
+        <description>Login</description>
+        <display-name>Login</display-name>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>com.devianta.simplequestions.Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SimpleQuestions</servlet-name>
+        <url-pattern>/SimpleQuestions</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+</web-app>
